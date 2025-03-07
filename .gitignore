@@ -1,0 +1,12 @@
+# Ignore vendor and contrib modules (use Composer instead)
+vendor/
+web/core/
+web/modules/contrib/
+web/themes/contrib/
+web/profiiles/contrib/
+web/sites/default/files/
+web/sites/default/private/
+web/sites/default/settings.local.php
+
+# Ignore DDEV files (if using DDEV)
+.ddev/

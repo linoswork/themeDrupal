@@ -1,0 +1,22 @@
+name: 'Oso Demo'
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - oso_demo/base
+  - oso_demo/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - oso_demo/user
+  core/drupal.dropbutton:
+    - oso_demo/dropbutton
+  core/drupal.dialog:
+    - oso_demo/dialog
+  file/drupal.file:
+    - oso_demo/file
+  core/drupal.progress:
+    - oso_demo/progress
+description: 'Custom theme generated from starterkit'
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.4.4'
