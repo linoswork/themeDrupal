@@ -5,7 +5,7 @@ version: 1.0.0
 libraries:
   - oso_demo/base
   - oso_demo/messages
-  - core/normalize
+  - oso_demo/main
 libraries-extend:
   user/drupal.user:
     - oso_demo/user
